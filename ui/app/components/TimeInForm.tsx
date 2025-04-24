@@ -30,7 +30,7 @@ export default function TimeInForm() {
       className="max-w-md mx-auto bg-white border-2 border-gray-900 rounded-3xl p-6 shadow-lg flex flex-col space-y-6"
       noValidate
     >
-      <label htmlFor="emp-id" className="font-medium">
+      <label htmlFor="emp-id" className="font-medium text-black">
         Employee ID
       </label>
       <input
@@ -39,7 +39,7 @@ export default function TimeInForm() {
         value={id}
         onChange={(e) => setId(e.target.value.replace(/[^a-zA-Z0-9]/g, ''))} // sanitize
         placeholder="3–10 chars"
-        className="w-full text-center py-3 text-lg border-2 border-gray-900 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-800"
+        className="w-full text-center py-3 text-lg border-2 border-gray-900 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-800 text-black"
         aria-invalid={!!error}
         aria-describedby={error ? 'id-error' : undefined}
       />
