@@ -1,2 +1,2 @@
-FROM lipanski/docker-static-website:2.1.0
+FROM lipanski/docker-static-website:2.4.0
 COPY ./build .
