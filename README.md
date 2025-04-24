@@ -28,15 +28,15 @@ A project that aims to enable seamless autonomous payments of construction worke
 
 ### 1. Time-in flow
 
-- [ ] user initiates an API call request to time-in
-- [ ] the app initiates the camera to capture the image the add timestamp of the current date and time and sends the data. to the backend for storage
-- [ ] user receives an SMS confirming the time-in
+- [x] user initiates an API call request to time-in
+- [x] the app initiates the camera to capture the image the add timestamp of the current date and time and sends the data. to the backend for storage
+- [x] user receives an SMS confirming the time-in
 
 ### 2. Timeout flow
 
-- [ ] user initiates an API call request to check out
-- [ ] the app initiates the camera to capture the image the add timestamp of the current date and time and sends the data. to the backend for storage
-- [ ] user receives an `SMS` confirming the checkout
+- [x] user initiates an API call request to check out
+- [x] the app initiates the camera to capture the image the add timestamp of the current date and time and sends the data. to the backend for storage
+- [x] user receives an `SMS` confirming the checkout
 
 ---
 
@@ -44,15 +44,15 @@ A project that aims to enable seamless autonomous payments of construction worke
 
 ### 1. Time-in flow
 
-- [ ] receive request for a time-in then `generate a unique ID` to send to the client
-- [ ] Await for image and date-time timestamp data the. store in the database
-- [ ] schedule an SMS in the background with the worker’s details together with the date-time timestamp plus processed data.
+- [x] receive request for a time-in then `generate a unique ID` to send to the client
+- [x] Await for image and date-time timestamp data the. store in the database
+- [x] schedule an SMS in the background with the worker’s details together with the date-time timestamp plus processed data.
 
 ### 2. Timeout flow
 
-- [ ] receive request for a timeout then generate a unique ID to send to the client
-- [ ] Await for image and date-time timestamp data the. store in the database
-- [ ] schedule an SMS in the background with the worker’s details together with the date-time timestamp plus processed data.
+- [x] receive request for a timeout then generate a unique ID to send to the client
+- [x] Await for image and date-time timestamp data the. store in the database
+- [x] schedule an SMS in the background with the worker’s details together with the date-time timestamp plus processed data.
 
 ---
 
