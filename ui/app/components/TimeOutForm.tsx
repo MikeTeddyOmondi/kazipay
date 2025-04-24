@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 // Env
@@ -9,7 +9,7 @@ const API_SERVER_URL = process.env.NEXT_PUBLIC_API_SERVER_URL;
 export default function TimeOutForm() {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
-  const router = useRouter();
+  // const _router = useRouter();
 
   // Simple regex: digits only, length 10-15
   const phonePattern = /^\d{10,15}$/;
