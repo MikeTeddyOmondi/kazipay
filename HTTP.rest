@@ -1,0 +1,7 @@
+# Onboarding
+POST http://localhost:3489/api/v1/onboard
+Content-Type: application/json
+
+{
+    "phoneNumber": "+254717135176"
+}

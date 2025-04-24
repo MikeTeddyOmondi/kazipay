@@ -15,5 +15,5 @@ const libsqlClient = createClient({
 
 const db = drizzle(libsqlClient);
 
-migrate(db, { migrationsFolder: "drizzle"})
+migrate(db, { migrationsFolder: "migrations"})
 
