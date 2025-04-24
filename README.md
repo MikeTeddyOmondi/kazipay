@@ -24,7 +24,7 @@ A project that aims to enable seamless autonomous payments of construction worke
 
 ### 0. Onboarding
 
-- [ ] Users `register` by providing their phone number through `USSD` and gets an `OTP` to verify their number to `activate` their accounts
+- [ ] Users `register` by providing their phone number & image through `USSD` and gets an `OTP` to verify their number to `activate` their accounts
 
 ### 1. Time-in flow
 
@@ -65,3 +65,11 @@ A project that aims to enable seamless autonomous payments of construction worke
   3. Time-in
     
   4. Timeout
+
+---
+
+Users(Roles):
+
+- 1. Admin
+- 2. Management
+- 3. Workers 
