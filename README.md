@@ -1,4 +1,4 @@
-Kazipay
+# Kazipay
 
 A project that aims to enable seamless autonomous payments of construction workers through mobile money.
 
